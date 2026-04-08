@@ -2,7 +2,6 @@ package ru.practicum.tracker;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class TaskManager {
     private final HashMap<Integer, Task> tasks = new HashMap<>();
