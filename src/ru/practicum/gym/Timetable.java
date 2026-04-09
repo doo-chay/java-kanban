@@ -59,7 +59,9 @@ public class Timetable {
             return new ArrayList<>();
         }
 
-        return new ArrayList<>(trainingsForDay.get(timeOfDay));
+        return trainingsForDay.get(timeOfDay);
+
+
     }
 
     public List<CounterOfTrainings> getCountByCoaches() {
